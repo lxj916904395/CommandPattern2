@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4D526E5420E207850037620B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D526E5320E207850037620B /* main.m */; };
+		4D526E6020E207CD0037620B /* TMMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D526E5F20E207CD0037620B /* TMMachine.m */; };
+		4D526E6320E207E90037620B /* TMMachineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D526E6220E207E90037620B /* TMMachineManager.m */; };
+		4D526E6620E208020037620B /* TMCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D526E6520E208020037620B /* TMCommand.m */; };
+		4D526E6920E208CB0037620B /* TMLeftCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D526E6820E208CB0037620B /* TMLeftCommand.m */; };
+		4D526E6C20E2095C0037620B /* TMRightCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D526E6B20E2095C0037620B /* TMRightCommand.m */; };
+		4D526E6F20E2097A0037620B /* TMTransformCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D526E6E20E2097A0037620B /* TMTransformCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,19 @@
 /* Begin PBXFileReference section */
 		4D526E5020E207850037620B /* 命令模式2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "命令模式2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D526E5320E207850037620B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D526E5D20E207BA0037620B /* TMCommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMCommandProtocol.h; sourceTree = "<group>"; };
+		4D526E5E20E207CD0037620B /* TMMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMMachine.h; sourceTree = "<group>"; };
+		4D526E5F20E207CD0037620B /* TMMachine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMMachine.m; sourceTree = "<group>"; };
+		4D526E6120E207E90037620B /* TMMachineManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMMachineManager.h; sourceTree = "<group>"; };
+		4D526E6220E207E90037620B /* TMMachineManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMMachineManager.m; sourceTree = "<group>"; };
+		4D526E6420E208020037620B /* TMCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMCommand.h; sourceTree = "<group>"; };
+		4D526E6520E208020037620B /* TMCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMCommand.m; sourceTree = "<group>"; };
+		4D526E6720E208CB0037620B /* TMLeftCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMLeftCommand.h; sourceTree = "<group>"; };
+		4D526E6820E208CB0037620B /* TMLeftCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMLeftCommand.m; sourceTree = "<group>"; };
+		4D526E6A20E2095C0037620B /* TMRightCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRightCommand.h; sourceTree = "<group>"; };
+		4D526E6B20E2095C0037620B /* TMRightCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRightCommand.m; sourceTree = "<group>"; };
+		4D526E6D20E2097A0037620B /* TMTransformCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMTransformCommand.h; sourceTree = "<group>"; };
+		4D526E6E20E2097A0037620B /* TMTransformCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMTransformCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,19 @@
 			isa = PBXGroup;
 			children = (
 				4D526E5320E207850037620B /* main.m */,
+				4D526E5D20E207BA0037620B /* TMCommandProtocol.h */,
+				4D526E5E20E207CD0037620B /* TMMachine.h */,
+				4D526E5F20E207CD0037620B /* TMMachine.m */,
+				4D526E6120E207E90037620B /* TMMachineManager.h */,
+				4D526E6220E207E90037620B /* TMMachineManager.m */,
+				4D526E6420E208020037620B /* TMCommand.h */,
+				4D526E6520E208020037620B /* TMCommand.m */,
+				4D526E6720E208CB0037620B /* TMLeftCommand.h */,
+				4D526E6820E208CB0037620B /* TMLeftCommand.m */,
+				4D526E6A20E2095C0037620B /* TMRightCommand.h */,
+				4D526E6B20E2095C0037620B /* TMRightCommand.m */,
+				4D526E6D20E2097A0037620B /* TMTransformCommand.h */,
+				4D526E6E20E2097A0037620B /* TMTransformCommand.m */,
 			);
 			path = "命令模式2";
 			sourceTree = "<group>";
@@ -118,6 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D526E6320E207E90037620B /* TMMachineManager.m in Sources */,
+				4D526E6F20E2097A0037620B /* TMTransformCommand.m in Sources */,
+				4D526E6C20E2095C0037620B /* TMRightCommand.m in Sources */,
+				4D526E6920E208CB0037620B /* TMLeftCommand.m in Sources */,
+				4D526E6020E207CD0037620B /* TMMachine.m in Sources */,
+				4D526E6620E208020037620B /* TMCommand.m in Sources */,
 				4D526E5420E207850037620B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

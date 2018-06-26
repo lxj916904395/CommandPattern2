@@ -10,4 +10,8 @@
 
 @implementation TMTransformCommand
 
+- (void)execute{
+    [self.machine toTransform];
+}
+
 @end

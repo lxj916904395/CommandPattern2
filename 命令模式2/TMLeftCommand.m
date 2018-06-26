@@ -10,4 +10,8 @@
 
 @implementation TMLeftCommand
 
+- (void)execute{
+    [self.machine toLeft];
+}
+
 @end

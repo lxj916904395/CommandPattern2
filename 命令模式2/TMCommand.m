@@ -7,7 +7,17 @@
 //
 
 #import "TMCommand.h"
+@interface TMCommand()
+//
 
+@end
 @implementation TMCommand
+
+- (instancetype)initWithMachine:(TMMachine *)machine{
+    if(self = [super init]){
+        self.machine = machine;
+    }
+    return self;
+}
 
 @end

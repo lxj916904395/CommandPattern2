@@ -1,3 +1,4 @@
+
 //
 //  TMCommandProtocol.h
 //  命令模式2
@@ -9,5 +10,9 @@
 #ifndef TMCommandProtocol_h
 #define TMCommandProtocol_h
 
+#import <Foundation/Foundation.h>
 
+@protocol TMCommandProtocol <NSObject>
+- (void)execute;
+@end
 #endif /* TMCommandProtocol_h */

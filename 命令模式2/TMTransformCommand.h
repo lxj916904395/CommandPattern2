@@ -6,8 +6,8 @@
 //  Copyright © 2018年 zhongding. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "TMCommand.h"
 
-@interface TMTransformCommand : NSObject
+@interface TMTransformCommand : TMCommand
 
 @end

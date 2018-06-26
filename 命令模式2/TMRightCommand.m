@@ -10,4 +10,8 @@
 
 @implementation TMRightCommand
 
+- (void)execute{
+    [self.machine toRight];
+}
+
 @end

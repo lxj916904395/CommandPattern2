@@ -10,4 +10,8 @@
 
 @interface TMMachine : NSObject
 
+- (void)toLeft;
+- (void)toRight;
+- (void)toTransform;
+
 @end

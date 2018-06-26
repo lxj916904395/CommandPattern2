@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TMCommand : NSObject
+#import "TMCommandProtocol.h"
+#import "TMMachine.h"
 
+@interface TMCommand : NSObject<TMCommandProtocol>
+@property(strong ,nonatomic) TMMachine *machine;
+
+- (instancetype)initWithMachine:(TMMachine *)machine;
 @end
