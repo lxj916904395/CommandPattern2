@@ -1,2 +1,2 @@
 # CommandPattern2
-![image](https://github.com/916904395@qq.com/CommandPattern2/命令模式/images/text.JPG)
+![image](https://github.com/lxj916904395/CommandPattern2/blob/master/命令模式2/images/text.JPG)
